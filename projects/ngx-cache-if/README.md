@@ -4,14 +4,26 @@ This directive to fill the gap between legacy *ngIf structural directive and [hi
 ngxCacheIf will behave like a ngIf for the first rendering then will act has hidden/shown directive.
 This allow to render a component only when needed and keep it's result in cache if we need to hide it again. (conditionnal content).
 
+Tested with :	
+
+| Framwork | Version |
+| -------- | -------- |
+| Angular  | 5 +   |
+| Ionic    | 3 |
+
 ```sh
     npm i --save ngx-cache-if
 ```
-import NgxCacheIfModule and then use
+import NgxCacheIfModule in your app module.
 
 ```html
     <my-comp async *ngxCacheIf="state"></my-comp>
 ```
+
+## Demo
+
+Url : https://mkligknn.github.stackblitz.io
+StackBlitz : https://stackblitz.com/edit/ngx-cache-if
 
 ## *ngIf
 

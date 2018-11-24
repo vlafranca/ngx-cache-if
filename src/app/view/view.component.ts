@@ -8,13 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ViewComponent implements OnInit {
 
   @Input() title: string;
-  hide = true;
+  time = 5;
   constructor() { }
 
   ngOnInit() {
-    setTimeout(() => {
-      this.hide = false;
-    }, 5000);
+    const handler = setInterval(() => {
+      this.time--;
+      if (this.time <= 0) {
+        clearInterval(handler);
+      }
+    }, 1000);
   }
 
 }

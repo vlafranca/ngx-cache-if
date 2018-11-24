@@ -20,6 +20,11 @@ import NgxCacheIfModule in your app module.
     <my-comp async *ngxCacheIf="state"></my-comp>
 ```
 
+## Demo
+
+Url : https://mkligknn.github.stackblitz.io
+StackBlitz : https://stackblitz.com/edit/ngx-cache-if
+
 ## *ngIf
 
 By default ngIf diretive render the component each time you want to display it. And destroy it when you hide it. This cause the lifecycle events to trigger multiple time if you display the same content. (An async call made in ngOnInit for example).

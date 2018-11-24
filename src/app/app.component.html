@@ -4,13 +4,9 @@
     Welcome to {{ title }} play ground!
   </h1>
 </div>
-<h2>First button toggle a div using ngxCacheIf directive.</h2>
-<h2>Second button toggle a div using legacy ngIf directive.</h2>
-<p>
-  Each button triggers a view with content displayed for 5 seconds from the ngOnInit lifecycle event.<br />
-  The first button will toggle a div with content cached. The test case aim to show how the content is rendered only once using ngxCacheIf. If you click multiple time you won't see the ngOnInit message.<br />
-  If you click multiple times on the ngIf legacy button the element is rendered each time we click on the button. There is no cache of the previously rendered component. So each time you will see the ngOnInit message.
-</p>
+<h3>First button toggle a div using ngxCacheIf directive.</h3>
+<h3>Second button toggle a div using legacy ngIf directive.</h3>
+
 <ul>
   <li>
     <button (click)="toggleCachedContent()">Toggle ngxCacheIf</button>
@@ -21,4 +17,10 @@
 </ul>
 
 <app-view *ngxCacheIf="hideCache" title="ngCacheIf"></app-view>
-<app-view *ngIf="hideIf" title="ngIf legacy"></app-view>
+<app-view *ngIf="hideIf" title="ngIf legacy (reset at each click of button)"></app-view>
+
+<p>
+  Each button triggers a view with content displayed for 5 seconds from the ngOnInit lifecycle event.<br /><br />
+  The first button will toggle a div with content cached. The test case aim to show how the content is rendered only once using ngxCacheIf. If you click multiple time you won't see the ngOnInit message.<br /><br />
+  If you click multiple times on the ngIf legacy button the element is rendered each time we click on the button. There is no cache of the previously rendered component. So each time you will see the ngOnInit message.
+</p>
