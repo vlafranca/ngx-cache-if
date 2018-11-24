@@ -1,0 +1,28 @@
+{
+  "name": "ngx-cache-if",
+  "version": "0.0.2",
+  "description": "An amazing module for Angular.",
+  "keywords": [
+    "ngIf",
+    "angular2",
+    "angular",
+    "angular4",
+    "angular5",
+    "angular6",
+    "cache",
+    "cache if",
+    "hide",
+    "show",
+    "ionic"
+  ],
+  "author": "Valentin Lafranca",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youraccount/angular-amazing.git"
+  },
+  "homepage": "https://github.com/youraccount/angular-amazing",
+  "bugs": {
+    "url": "https://github.com/youraccount/angular-amazing/issues"
+  }
+}
