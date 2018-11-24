@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/youraccount/angular-amazing.git"
+    "url": "https://github.com/vlafranca/ngx-cache-if.git"
   },
-  "homepage": "https://github.com/youraccount/angular-amazing",
+  "homepage": "https://github.com/vlafranca/ngx-cache-if",
   "bugs": {
-    "url": "https://github.com/youraccount/angular-amazing/issues"
+    "url": "https://github.com/vlafranca/ngx-cache-if/issues"
   }
 }
