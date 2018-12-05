@@ -25,19 +25,19 @@ import NgxCacheIfModule in your app module.
 Url : https://mkligknn.github.stackblitz.io
 StackBlitz : https://stackblitz.com/edit/ngx-cache-if
 
-![ngxCacheIf content loaded only once](https://github.com/vlafranca/ngx-cache-if/demo/ngxcacheif.gif)
+![ngxCacheIf content loaded only once](https://github.com/vlafranca/ngx-cache-if/blob/master/demo/ngxcacheif.gif)
 
 ## *ngIf
 
 By default ngIf diretive render the component each time you want to display it. And destroy it when you hide it. This cause the lifecycle events to trigger multiple time if you display the same content. (An async call made in ngOnInit for example).
 
-![ngIf content loaded each time](https://github.com/vlafranca/ngx-cache-if/demo/ngif.gif)
+![ngIf content loaded each time](https://github.com/vlafranca/ngx-cache-if/blob/master/demo/ngif.gif)
 
 ## [hidden]
 
 The hidden/shown behaviors renders the element at the rendering of the parent component and hide or display it with css. This cause the lifecycle events to be triggered at the rendering of the parent view. If you have multiples components to load in the same view that can cause a large amount of operations if they are computing all at the same time instead of rendering only when needed.
 
-![hidden content loaded at loading time](https://github.com/vlafranca/ngx-cache-if/demo/hidden.gif)
+![hidden content loaded at loading time](https://github.com/vlafranca/ngx-cache-if/blob/master/demo/hidden.gif)
 
 
 # Run project
